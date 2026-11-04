@@ -1,0 +1,25 @@
+{
+  "environment": {
+    "python": "3.15.1",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "url": "http://127.0.0.1:8000/api/action"
+  },
+  "results": {
+    "legacy": {
+      "n": 30,
+      "mean_ms": 35.91,
+      "p95_ms": 51.12,
+      "errors": 0,
+      "error_rate_percent": 0.0,
+      "source": "medicion_real_local"
+    },
+    "centralized": {
+      "n": 30,
+      "mean_ms": 30.68,
+      "p95_ms": 36.49,
+      "errors": 0,
+      "error_rate_percent": 0.0,
+      "source": "medicion_real_local"
+    }
+  }
+}
